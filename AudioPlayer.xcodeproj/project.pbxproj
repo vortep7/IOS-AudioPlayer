@@ -8,17 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		778B60152C50ECF300321F5F /* AudioPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60142C50ECF300321F5F /* AudioPlayerApp.swift */; };
-		778B60172C50ECF300321F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60162C50ECF300321F5F /* ContentView.swift */; };
+		778B60172C50ECF300321F5F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60162C50ECF300321F5F /* MainView.swift */; };
 		778B60192C50ECF400321F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B60182C50ECF400321F5F /* Assets.xcassets */; };
 		778B601C2C50ECF400321F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B601B2C50ECF400321F5F /* Preview Assets.xcassets */; };
+		778B60292C50EFC200321F5F /* ScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60282C50EFC200321F5F /* ScreenExtension.swift */; };
+		778B602C2C50F01800321F5F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B602B2C50F01800321F5F /* Line.swift */; };
+		778B602E2C50F12E00321F5F /* NavigationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B602D2C50F12E00321F5F /* NavigationStep.swift */; };
+		778B60312C50F50100321F5F /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60302C50F50100321F5F /* ScrollView.swift */; };
+		778B60332C50FCBB00321F5F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60322C50FCBB00321F5F /* Fonts.swift */; };
+		778B60352C50FD0E00321F5F /* ChooseProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60342C50FD0E00321F5F /* ChooseProfileView.swift */; };
+		778B60372C50FDA500321F5F /* HelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60362C50FDA500321F5F /* HelperView.swift */; };
+		778B60392C50FE1200321F5F /* FakeNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60382C50FE1200321F5F /* FakeNewsView.swift */; };
+		778B603B2C50FE5100321F5F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B603A2C50FE5100321F5F /* HeaderView.swift */; };
+		778B603D2C50FE7600321F5F /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B603C2C50FE7600321F5F /* FilterView.swift */; };
+		778B603F2C50FEC000321F5F /* ChooseProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B603E2C50FEC000321F5F /* ChooseProfileVM.swift */; };
+		778B60412C50FF3A00321F5F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60402C50FF3A00321F5F /* ColorExtension.swift */; };
+		778B60442C51084600321F5F /* KishlakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60432C51084600321F5F /* KishlakScreen.swift */; };
+		778B60462C51086B00321F5F /* FaceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60452C51086B00321F5F /* FaceScreen.swift */; };
+		778B60482C5109A500321F5F /* LSPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B60472C5109A500321F5F /* LSPScreen.swift */; };
+		778B604B2C510DAE00321F5F /* KishlakAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B604A2C510DAE00321F5F /* KishlakAudioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		778B60112C50ECF300321F5F /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B60142C50ECF300321F5F /* AudioPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerApp.swift; sourceTree = "<group>"; };
-		778B60162C50ECF300321F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		778B60162C50ECF300321F5F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		778B60182C50ECF400321F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778B601B2C50ECF400321F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		778B60282C50EFC200321F5F /* ScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenExtension.swift; sourceTree = "<group>"; };
+		778B602B2C50F01800321F5F /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		778B602D2C50F12E00321F5F /* NavigationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStep.swift; sourceTree = "<group>"; };
+		778B60302C50F50100321F5F /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		778B60322C50FCBB00321F5F /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		778B60342C50FD0E00321F5F /* ChooseProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProfileView.swift; sourceTree = "<group>"; };
+		778B60362C50FDA500321F5F /* HelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperView.swift; sourceTree = "<group>"; };
+		778B60382C50FE1200321F5F /* FakeNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNewsView.swift; sourceTree = "<group>"; };
+		778B603A2C50FE5100321F5F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		778B603C2C50FE7600321F5F /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		778B603E2C50FEC000321F5F /* ChooseProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseProfileVM.swift; sourceTree = "<group>"; };
+		778B60402C50FF3A00321F5F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		778B60432C51084600321F5F /* KishlakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KishlakScreen.swift; sourceTree = "<group>"; };
+		778B60452C51086B00321F5F /* FaceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScreen.swift; sourceTree = "<group>"; };
+		778B60472C5109A500321F5F /* LSPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPScreen.swift; sourceTree = "<group>"; };
+		778B604A2C510DAE00321F5F /* KishlakAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KishlakAudioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +83,108 @@
 		778B60132C50ECF300321F5F /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				778B60142C50ECF300321F5F /* AudioPlayerApp.swift */,
-				778B60162C50ECF300321F5F /* ContentView.swift */,
-				778B60182C50ECF400321F5F /* Assets.xcassets */,
-				778B601A2C50ECF400321F5F /* Preview Content */,
+				778B602F2C50F30500321F5F /* Preview Content */,
+				778B60262C50EF3700321F5F /* Configs */,
+				778B60252C50EF2400321F5F /* Application */,
+				778B60222C50EEFB00321F5F /* Presentation */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
 		};
-		778B601A2C50ECF400321F5F /* Preview Content */ = {
+		778B60222C50EEFB00321F5F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				778B602A2C50F00800321F5F /* UIComponents */,
+				778B60242C50EF0900321F5F /* ViewModels */,
+				778B60232C50EF0400321F5F /* Screens */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		778B60232C50EF0400321F5F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				778B60492C510D9C00321F5F /* AudioScreen */,
+				778B60422C51083700321F5F /* ArtistScreen */,
+				778B60162C50ECF300321F5F /* MainView.swift */,
+				778B60302C50F50100321F5F /* ScrollView.swift */,
+				778B60342C50FD0E00321F5F /* ChooseProfileView.swift */,
+				778B60362C50FDA500321F5F /* HelperView.swift */,
+				778B60382C50FE1200321F5F /* FakeNewsView.swift */,
+				778B603C2C50FE7600321F5F /* FilterView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		778B60242C50EF0900321F5F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				778B603E2C50FEC000321F5F /* ChooseProfileVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		778B60252C50EF2400321F5F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				778B60142C50ECF300321F5F /* AudioPlayerApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		778B60262C50EF3700321F5F /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				778B60272C50EFBB00321F5F /* Extensions */,
+				778B60182C50ECF400321F5F /* Assets.xcassets */,
+				778B60322C50FCBB00321F5F /* Fonts.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		778B60272C50EFBB00321F5F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				778B60282C50EFC200321F5F /* ScreenExtension.swift */,
+				778B60402C50FF3A00321F5F /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		778B602A2C50F00800321F5F /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				778B602B2C50F01800321F5F /* Line.swift */,
+				778B602D2C50F12E00321F5F /* NavigationStep.swift */,
+				778B603A2C50FE5100321F5F /* HeaderView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		778B602F2C50F30500321F5F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				778B601B2C50ECF400321F5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		778B60422C51083700321F5F /* ArtistScreen */ = {
+			isa = PBXGroup;
+			children = (
+				778B60432C51084600321F5F /* KishlakScreen.swift */,
+				778B60452C51086B00321F5F /* FaceScreen.swift */,
+				778B60472C5109A500321F5F /* LSPScreen.swift */,
+			);
+			path = ArtistScreen;
+			sourceTree = "<group>";
+		};
+		778B60492C510D9C00321F5F /* AudioScreen */ = {
+			isa = PBXGroup;
+			children = (
+				778B604A2C510DAE00321F5F /* KishlakAudioView.swift */,
+			);
+			path = AudioScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +257,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				778B60172C50ECF300321F5F /* ContentView.swift in Sources */,
+				778B60332C50FCBB00321F5F /* Fonts.swift in Sources */,
+				778B60172C50ECF300321F5F /* MainView.swift in Sources */,
+				778B60392C50FE1200321F5F /* FakeNewsView.swift in Sources */,
+				778B604B2C510DAE00321F5F /* KishlakAudioView.swift in Sources */,
+				778B602C2C50F01800321F5F /* Line.swift in Sources */,
+				778B603D2C50FE7600321F5F /* FilterView.swift in Sources */,
+				778B60412C50FF3A00321F5F /* ColorExtension.swift in Sources */,
+				778B60372C50FDA500321F5F /* HelperView.swift in Sources */,
+				778B603F2C50FEC000321F5F /* ChooseProfileVM.swift in Sources */,
+				778B602E2C50F12E00321F5F /* NavigationStep.swift in Sources */,
+				778B60292C50EFC200321F5F /* ScreenExtension.swift in Sources */,
+				778B60462C51086B00321F5F /* FaceScreen.swift in Sources */,
+				778B603B2C50FE5100321F5F /* HeaderView.swift in Sources */,
 				778B60152C50ECF300321F5F /* AudioPlayerApp.swift in Sources */,
+				778B60312C50F50100321F5F /* ScrollView.swift in Sources */,
+				778B60482C5109A500321F5F /* LSPScreen.swift in Sources */,
+				778B60442C51084600321F5F /* KishlakScreen.swift in Sources */,
+				778B60352C50FD0E00321F5F /* ChooseProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = Z96X7GW9YS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,6 +416,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = Z96X7GW9YS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,6 +446,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

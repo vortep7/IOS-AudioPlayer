@@ -12,7 +12,7 @@ struct HelperView: View {
     
     var stausName : String = "Статус"
     var stausDate : String = "06.11.2023, 12:00"
-    var stausTag : String = "Заявка 511997 сменила статус"
+    var stausTag : String = "Альбом 1234 "
     
     var body: some View {
         VStack(spacing: scaleScreen(16)){
@@ -60,4 +60,8 @@ struct HelperView: View {
     }
 }
 
+
+#Preview {
+    HelperView()
+}
 
